@@ -1,0 +1,73 @@
+{
+  "name": "karma-mocha-webpack-react-example",
+  "version": "1.0.0",
+  "description": "Karma + Webpack + Mocha + Chai + React",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start -- --test",
+    "test:watch": "karma start --watch -- --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "karma",
+    "webpack",
+    "mocha",
+    "chai",
+    "should",
+    "istanbul",
+    "gulp"
+  ],
+  "author": "Saber-Kurama",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies":{
+    "babel": "^6.5.2",
+    "babel-polyfill": "^6.5.0",
+    "babel-runtime": "^6.5.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-eslint": "^6.0.0-beta.2",
+    "babel-loader": "^6.2.2",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-react-transform": "^2.0.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.5.2",
+    "babel-plugin-typecheck": "^3.6.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.0",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-register": "^6.5.2",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "istanbul": "^0.4.2",
+    "istanbul-instrumenter-loader": "^0.2.0",
+    "karma": "^0.13.22",
+    "karma-chai": "^0.1.0",
+    "karma-chai-as-promised": "^0.1.2",
+    "karma-coverage": "^0.5.5",
+    "karma-mocha": "^0.2.2",
+    "karma-nyan-reporter": "^0.2.3",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-should": "^1.0.0",
+    "karma-spec-reporter": "0.0.24",
+    "karma-webpack": "^1.7.0",
+    "minimist": "^1.2.0",
+    "mocha": "^2.4.5",
+    "mocha-loader": "^0.7.1",
+    "phantomjs-polyfill": "^0.0.2",
+    "phantomjs-prebuilt": "^2.1.6",
+    "should": "^8.3.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

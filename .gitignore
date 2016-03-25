@@ -1,0 +1,9 @@
+node_modules/
+/dist/
+/coverage/
+/doc/
+npm-debug*
+.env
+.DS_Store
+.publish
+.idea
