@@ -49,6 +49,8 @@
     "babel-register": "^6.5.2",
     "chai": "^3.5.0",
     "gulp": "^3.9.1",
+    "isparta": "^4.0.0",
+    "isparta-loader": "^2.0.0",
     "istanbul": "^0.4.2",
     "istanbul-instrumenter-loader": "^0.2.0",
     "karma": "^0.13.22",

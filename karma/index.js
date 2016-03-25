@@ -64,9 +64,8 @@ const karmaConfig = {
 };
 
 const coverage = getCoverageOptions(argv);
-console.error(argv)
 // 判断是不是要进行代码覆盖率测试
-if (coverage.enabled && false) {
+if (coverage.enabled) {
   const srcWildcard = resolve.src('**/*.js');
 
   karmaConfig.preprocessors[srcWildcard] = ['coverage'];
